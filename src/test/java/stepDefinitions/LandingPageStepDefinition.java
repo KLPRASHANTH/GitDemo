@@ -45,6 +45,7 @@ public class LandingPageStepDefinition {
 	//	Assert.assertTrue(landingpage.getLandingPageTitle().contains("GreenKart"));
 	System.out.println("testing git");
         System.out.println("committed by Asian guy");
+        System.out.println("committed by IST guy with develop branch");
 	}
 
 	@When("^user search with short name (.+) and extracts actual name of the product$")
