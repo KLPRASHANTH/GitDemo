@@ -43,6 +43,7 @@ public class LandingPageStepDefinition {
 		//here the driver will get initialised with out invoking because the driver will get initialised 
 		// by calling from TestContext and in that testcontext it will call from Pagefactorymanager
 	//	Assert.assertTrue(landingpage.getLandingPageTitle().contains("GreenKart"));
+	System.out.println("testing git");
 	}
 
 	@When("^user search with short name (.+) and extracts actual name of the product$")
