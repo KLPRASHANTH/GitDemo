@@ -46,6 +46,7 @@ public class LandingPageStepDefinition {
 	System.out.println("testing git");
         System.out.println("committed by Asian guy");
         System.out.println("committed by IST guy with develop branch");
+        System.out.println("committed by Asian guy with develop branch");
 	}
 
 	@When("^user search with short name (.+) and extracts actual name of the product$")
