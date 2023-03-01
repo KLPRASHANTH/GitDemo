@@ -39,7 +39,7 @@ public class OffersPageStepDefinition {
 		//OffersPage offerspage=pagefactory.getOffersPage();
 		//OffersPage offerspage = new OffersPage(testcontext.driver);
 		offerspage.searchItem(shortName);
-		
+		System.out.println("2nd committed by IST guy with develop branch");
 		//testcontext.driver.findElement(By.id("search-field")).sendKeys(shortName);
 		 offerPageProduct=offerspage.getproductName();
 		
