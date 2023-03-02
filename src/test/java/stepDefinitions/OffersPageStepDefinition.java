@@ -41,6 +41,7 @@ public class OffersPageStepDefinition {
 		offerspage.searchItem(shortName);
 		System.out.println("2nd committed by IST guy with develop branch");
               System.out.println("2nd committed by Asian guy with develop branch");
+              System.out.println("3rdd committed by IST guy with develop branch");
 		//testcontext.driver.findElement(By.id("search-field")).sendKeys(shortName);
 		 offerPageProduct=offerspage.getproductName();
 		
