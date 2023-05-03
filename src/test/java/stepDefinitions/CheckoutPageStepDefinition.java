@@ -53,6 +53,9 @@ public class CheckoutPageStepDefinition {
 		
 		System.out.println("Added develop branch");
 		System.out.println("Added develop branch");
+
+                 System.out.println("Added 3 to develop branch");
+                  System.out.println("Added 4 to develop branch");
 		 Assert.assertTrue(checkoutpage.verifypromoButton());
 		 Assert.assertTrue(checkoutpage.verifyplaceOrder());
 		 
