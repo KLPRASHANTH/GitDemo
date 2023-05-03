@@ -39,6 +39,8 @@ public class CheckoutPageStepDefinition {
 		checkoutpage.checkOutItem();
 		Thread.sleep(2000);
 	String checkoutproductname=	checkoutpage.getCheckoutProductName().split("-")[0].trim();
+	System.out.println("first line added");
+	System.out.println("Second line added");
 	Assert.assertTrue(checkoutproductname.contains(name));
 	    
 	}
@@ -48,6 +50,7 @@ public class CheckoutPageStepDefinition {
 		 
 		 Assert.assertTrue(checkoutpage.verifypromoButton());
 		 Assert.assertTrue(checkoutpage.verifyplaceOrder());
+		 
 	}
 
 
