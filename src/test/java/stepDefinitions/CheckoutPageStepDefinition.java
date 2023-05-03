@@ -41,6 +41,9 @@ public class CheckoutPageStepDefinition {
 	String checkoutproductname=	checkoutpage.getCheckoutProductName().split("-")[0].trim();
 	System.out.println("first line added");
 	System.out.println("Second line added");
+	System.out.println("Third line added");
+	System.out.println("4th line added");
+
 	Assert.assertTrue(checkoutproductname.contains(name));
 	    
 	}
@@ -50,6 +53,9 @@ public class CheckoutPageStepDefinition {
 		
 		System.out.println("Added develop branch");
 		System.out.println("Added develop branch");
+
+                 System.out.println("Added 3 to develop branch");
+                  System.out.println("Added 4 to develop branch");
 		 Assert.assertTrue(checkoutpage.verifypromoButton());
 		 Assert.assertTrue(checkoutpage.verifyplaceOrder());
 		 
