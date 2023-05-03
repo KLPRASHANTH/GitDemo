@@ -47,7 +47,9 @@ public class CheckoutPageStepDefinition {
 
 	@Then("verify the user as ability to enter the promo code and place the order")
 	public void verify_the_user_as_ability_to_enter_the_promo_code_and_place_the_order() {
-		 
+		
+		System.out.println("Added develop branch");
+		System.out.println("Added develop branch");
 		 Assert.assertTrue(checkoutpage.verifypromoButton());
 		 Assert.assertTrue(checkoutpage.verifyplaceOrder());
 		 
